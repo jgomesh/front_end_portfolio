@@ -15,6 +15,5 @@ npm install
 
 npm start
 
-link da pag em funcionamento:
-
-.
+Link da pag em funcionamento:
+- www.google.com
