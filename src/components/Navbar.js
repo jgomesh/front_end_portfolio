@@ -8,7 +8,7 @@ function Navbar() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0A129F] text-gray-200">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#18283d] text-gray-200">
       <div>
         <h4 className="text-2xl">João Otávio Gomes Hugill</h4>
       </div>
