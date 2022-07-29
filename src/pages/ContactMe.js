@@ -1,18 +1,16 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Home from "../components/Home";
-import About from "../components/About";
+import Contact from "../components/Contact";
 
-function Landpage({ history }) {
+function ContactMe({ history }) {
   return (
     <>
     <div className="space-bg">
       <Navbar history={ history }/>
-      <Home />
+      <Contact />
     </div>
-      <About />
     </>
   )
 }
 
-export default Landpage;
+export default ContactMe;
