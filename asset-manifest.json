@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/front-end-portfolio/static/css/main.557a4cfc.css",
-    "main.js": "/front-end-portfolio/static/js/main.b13b1a58.js",
+    "main.js": "/front-end-portfolio/static/js/main.4faf7540.js",
     "static/js/787.3fe8b5fc.chunk.js": "/front-end-portfolio/static/js/787.3fe8b5fc.chunk.js",
     "static/media/barber-shop.png": "/front-end-portfolio/static/media/barber-shop.239b3fc2dd4c0675e571.png",
     "static/media/front-end-store.png": "/front-end-portfolio/static/media/front-end-store.b4341b64aa61fe4e5e49.png",
@@ -18,11 +18,11 @@
     "static/media/javascript.png": "/front-end-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/front-end-portfolio/index.html",
     "main.557a4cfc.css.map": "/front-end-portfolio/static/css/main.557a4cfc.css.map",
-    "main.b13b1a58.js.map": "/front-end-portfolio/static/js/main.b13b1a58.js.map",
+    "main.4faf7540.js.map": "/front-end-portfolio/static/js/main.4faf7540.js.map",
     "787.3fe8b5fc.chunk.js.map": "/front-end-portfolio/static/js/787.3fe8b5fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.557a4cfc.css",
-    "static/js/main.b13b1a58.js"
+    "static/js/main.4faf7540.js"
   ]
 }
