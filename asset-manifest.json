@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/front-end-portfolio/static/css/main.557a4cfc.css",
-    "main.js": "/front-end-portfolio/static/js/main.a73056d5.js",
-    "static/js/787.3fe8b5fc.chunk.js": "/front-end-portfolio/static/js/787.3fe8b5fc.chunk.js",
-    "static/media/barber-shop.png": "/front-end-portfolio/static/media/barber-shop.239b3fc2dd4c0675e571.png",
-    "static/media/front-end-store.png": "/front-end-portfolio/static/media/front-end-store.b4341b64aa61fe4e5e49.png",
-    "static/media/trybefy.png": "/front-end-portfolio/static/media/trybefy.5719e9a614437782c5e9.png",
-    "static/media/space.jpg": "/front-end-portfolio/static/media/space.da6b6e625e796afd8c08.jpg",
-    "static/media/trivia_page.png": "/front-end-portfolio/static/media/trivia_page.08181606ebc1d6b859ee.png",
-    "static/media/astronault.png": "/front-end-portfolio/static/media/astronault.40254c94ec722ca2e5fd.png",
-    "static/media/recipe_app.png": "/front-end-portfolio/static/media/recipe_app.08810fe34d28c2bc76b9.png",
-    "static/media/react.png": "/front-end-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/github.png": "/front-end-portfolio/static/media/github.3b9e32903aa89111875d.png",
-    "static/media/html.png": "/front-end-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/tailwind.png": "/front-end-portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
-    "static/media/css.png": "/front-end-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/javascript.png": "/front-end-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-    "index.html": "/front-end-portfolio/index.html",
-    "main.557a4cfc.css.map": "/front-end-portfolio/static/css/main.557a4cfc.css.map",
-    "main.a73056d5.js.map": "/front-end-portfolio/static/js/main.a73056d5.js.map",
-    "787.3fe8b5fc.chunk.js.map": "/front-end-portfolio/static/js/787.3fe8b5fc.chunk.js.map"
+    "main.css": "/front_end_portfolio/static/css/main.e198e372.css",
+    "main.js": "/front_end_portfolio/static/js/main.b7040861.js",
+    "static/js/787.3fe8b5fc.chunk.js": "/front_end_portfolio/static/js/787.3fe8b5fc.chunk.js",
+    "static/media/barber-shop.png": "/front_end_portfolio/static/media/barber-shop.239b3fc2dd4c0675e571.png",
+    "static/media/front-end-store.png": "/front_end_portfolio/static/media/front-end-store.b4341b64aa61fe4e5e49.png",
+    "static/media/trybefy.png": "/front_end_portfolio/static/media/trybefy.5719e9a614437782c5e9.png",
+    "static/media/space.jpg": "/front_end_portfolio/static/media/space.da6b6e625e796afd8c08.jpg",
+    "static/media/trivia_page.png": "/front_end_portfolio/static/media/trivia_page.08181606ebc1d6b859ee.png",
+    "static/media/astronault.png": "/front_end_portfolio/static/media/astronault.40254c94ec722ca2e5fd.png",
+    "static/media/recipe_app.png": "/front_end_portfolio/static/media/recipe_app.08810fe34d28c2bc76b9.png",
+    "static/media/react.png": "/front_end_portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/github.png": "/front_end_portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/front_end_portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/front_end_portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/front_end_portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/front_end_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/front_end_portfolio/index.html",
+    "main.e198e372.css.map": "/front_end_portfolio/static/css/main.e198e372.css.map",
+    "main.b7040861.js.map": "/front_end_portfolio/static/js/main.b7040861.js.map",
+    "787.3fe8b5fc.chunk.js.map": "/front_end_portfolio/static/js/787.3fe8b5fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.557a4cfc.css",
-    "static/js/main.a73056d5.js"
+    "static/css/main.e198e372.css",
+    "static/js/main.b7040861.js"
   ]
 }
