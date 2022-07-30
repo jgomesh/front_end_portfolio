@@ -29,3 +29,126 @@
     hsla(242, 74%, 61%, 0.8)
   )!important;
 }
+
+.fade-anim img {
+  animation: fadeAnim 0.5s ease-out;
+}
+
+@keyframes fadeAnim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes floatAnim {
+  from {
+    top: 150px;
+  }
+  50% {
+    top: 50px;
+  }
+  to {
+    top: 150px;
+  }
+}
+
+.space-bg {
+  background-image: url('./assets/space.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.on-top {
+  position: relative;
+  z-index: 2;
+}
+
+.icons-my {
+  z-index: 11;
+}
+
+.astronault {
+  width: 70%;
+  display: flex;
+  z-index: 0;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  top: 5px;
+  animation: floatAnim 5s infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.in_front {
+  z-index: 1000;
+}
+
+.content-div1 {
+  background-image: url('./assets/trivia_page.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div1:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 157, 255, 0.8),
+    hsla(242, 74%, 61%, 0.8)
+  )!important;
+}
+
+.content-div3 {
+  background-image: url('./assets/recipe_app.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div3:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 157, 255, 0.8),
+    hsla(242, 74%, 61%, 0.8)
+  )!important;
+}
+
+.content-div2 {
+  background-image: url('./assets/trybefy.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div2:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 157, 255, 0.8),
+    hsla(242, 74%, 61%, 0.8)
+  )!important;
+}
+
+.content-div4 {
+  background-image: url('./assets/barber-shop.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div4:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 157, 255, 0.8),
+    hsla(242, 74%, 61%, 0.8)
+  )!important;
+}
