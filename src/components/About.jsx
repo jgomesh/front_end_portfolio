@@ -1,6 +1,7 @@
 import React from "react";
+import { HiArrowNarrowRight } from 'react-icons/hi';
 
-function About() {
+function About({ history }) {
   return (
       <div name="about" className="w-full h-screen bg-[#55aca3] text-gray-300 z-0">
         <div className="flex flex-col justify-center items-center w-full h-full">
@@ -22,6 +23,14 @@ function About() {
                 </p>
               </div>
             </div>
+        <div>
+          <button onClick={ () => history.push('/work') } type="button" className="text-white group border-2 px-6 py-3 my-6 flex items-center hover:bg-[#4dc251] hover:border-[#4CAF50] transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110 duration-300">
+            Meus projetoss
+            <span className="group-hover:rotate-90 duration-300">
+              <HiArrowNarrowRight className="ml-3 " />
+            </span>
+          </button>
+        </div>
         </div>
       </div>
   )

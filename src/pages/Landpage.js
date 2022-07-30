@@ -10,7 +10,7 @@ function Landpage({ history }) {
       <Navbar history={ history }/>
       <Home />
     </div>
-      <About />
+      <About history={ history } />
     </>
   )
 }
