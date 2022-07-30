@@ -7,7 +7,7 @@ function Navbar({ history }) {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#74949177] text-gray-200">
+    <div className="in_front fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#74949177] text-gray-200">
       <div>
         <h4 className="text-2xl">João Otávio Gomes Hugill</h4>
       </div>
@@ -26,9 +26,9 @@ function Navbar({ history }) {
 
       {/* MOBILE MENU */}
       <ul className={ !nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#749491] flex flex-col justify-center items-center"}>
-          <li className='py-6 text-4xl' onClick={ () => history.push('/') }>Home</li>
-          <li className='py-6 text-4xl' onClick={ () => history.push('/work') }>My Work</li>
-          <li className='py-6 text-4xl'>Contact</li>
+          <li className='py-6 text-4xl in_front' onClick={ () => history.push('/') }>Home</li>
+          <li className='py-6 text-4xl in_front' onClick={ () => history.push('/work') }>My Work</li>
+          <li className='py-6 text-4xl in_front' onClick={ () => history.push('/contact') }>Contact</li>
       </ul>
     </div>
   )

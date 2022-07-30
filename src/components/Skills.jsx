@@ -5,13 +5,12 @@ import ReactImg from '../assets/react.png';
 import CSS from '../assets/css.png';
 import GitHub from '../assets/github.png';
 import TailWind from '../assets/tailwind.png';
-import { HiArrowNarrowRight } from 'react-icons/hi';
 
 function Skills() {
   return (
     <>
       <div className="w-full bg-[#00968786] h-[200px] "></div>
-      <div name="skills" className="w-full h-screen text-gray-300">
+      <div name="skills" className="w-full text-gray-300">
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full py-6">
           <div className="py-6">
             <p className="text-4xl font-bold inline border-b-4 border-[#4CAF50] py-6">Experience</p>
