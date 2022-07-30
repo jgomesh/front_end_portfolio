@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-scroll";
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
 function Work() {
@@ -23,10 +24,10 @@ function Work() {
                 Front End Online Store
               </span>
               <div className="pt-8 text-center">
-                <a href='/'>
+                <a target="_blank" href='https://jgomesh.github.io/frontend-online-store/' rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                 </a>
-                <a href='/'>
+                <a target="_blank" href='https://github.com/jgomesh/frontend-online-store' rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -42,10 +43,10 @@ function Work() {
                 Trivia
               </span>
               <div className="pt-8 text-center">
-                <a href='/'>
+                <a href="https://jgomesh.github.io/my-trivia-game/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                 </a>
-                <a href='/'>
+                <a href="https://github.com/jgomesh/my-trivia-game" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -60,10 +61,10 @@ function Work() {
                 Recipes App
               </span>
               <div className="pt-8 text-center">
-                <a href='/'>
+                <a target="_blank" href="https://jgomesh.github.io/recipes-app/" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                 </a>
-                <a href='/'>
+                <a href="https://github.com/jgomesh/recipes-app" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -126,11 +127,13 @@ function Work() {
           </div>
         </div>
         <div className="w-full flex justify-center py-10">
-        <button type="button" className=" text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4dc251] hover:border-[#4CAF50] transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110 duration-300"> Tecnologias usadas
-          <span className="group-hover:rotate-90 duration-300">
-            <HiArrowNarrowRight className="ml-3 " />
-          </span>
-        </button>
+        <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>
+          <button type="button" className=" text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#4dc251] hover:border-[#4CAF50] transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110 duration-300"> Tecnologias usadas
+            <span className="group-hover:rotate-90 duration-300">
+              <HiArrowNarrowRight className="ml-3 " />
+            </span>
+          </button>
+        </Link>
       </div>
       </div>
     </div>
