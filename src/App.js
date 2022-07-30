@@ -7,7 +7,7 @@ import Project from './pages/Projects';
 function App() {
   return (
     <Switch>
-      <Route exact path="/" component={ Landpage }/>
+      <Route exact path="/front-end-portfolio" component={ Landpage }/>
       <Route exact path="/work" component={ Project }/>
       <Route exact path="/contact" component={ ContactMe }/>
     </Switch>

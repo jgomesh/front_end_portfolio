@@ -15,7 +15,7 @@ function Navbar({ history }) {
       {/* MENU */}
       <div className="hidden md:flex">
         <ul className="flex">
-          <li onClick={ () => history.push('/') }>Home</li>
+          <li onClick={ () => history.push('/front-end-portfolio') }>Home</li>
           <li onClick={ () => history.push('/work') }>Projetos</li>
           <li onClick={ () => history.push('/contact') }>Contato</li>
         </ul>
@@ -26,7 +26,7 @@ function Navbar({ history }) {
 
       {/* MOBILE MENU */}
       <ul className={ !nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#749491] flex flex-col justify-center items-center"}>
-          <li className='py-6 text-4xl in_front' onClick={ () => history.push('/') }>Home</li>
+          <li className='py-6 text-4xl in_front' onClick={ () => history.push('/front-end-portfolio') }>Home</li>
           <li className='py-6 text-4xl in_front' onClick={ () => history.push('/work') }>Projetos</li>
           <li className='py-6 text-4xl in_front' onClick={ () => history.push('/contact') }>Contato</li>
       </ul>
